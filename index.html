@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I.E.P. Sagrado Corazón de Jesús de Santa Clara</title>
+<meta name="description" content="Colegio cristiano y familiar en Santa Clara. Inicial, primaria y secundaria. Formamos con fe, estudio y alegría.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><svg viewBox="0 0 64 64" width="72"><use href="#heart"/></svg></div>
+
+<!-- Corazón reutilizable: se dibuja una sola vez -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="heart" viewBox="0 0 64 64"><path d="M32 58C10 42 4 30 4 20 4 11 11 5 19 5c6 0 10 3 13 8 3-5 7-8 13-8 8 0 15 6 15 15 0 10-6 22-28 38z" style="fill:var(--amarillo)"/><path d="M32 18v22M23 27h18" style="stroke:var(--guinda)" stroke-width="5" stroke-linecap="round"/></symbol>
+  </defs>
+</svg>
+
+<div class="progress" id="progress"></div>
+<header class="header" id="inicio">
+  <a class="logo" href="#inicio"><svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true"><use href="#heart"/></svg><span>Sagrado Corazón<small>de Jesús · Santa Clara</small></span></a>
+  <button class="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  <nav class="nav" id="nav">
+    <a href="#niveles">Niveles</a>
+    <a href="#fe">Nuestra fe</a>
+    <a href="#vida">Vida escolar</a>
+    <a href="#admision">Admisión</a>
+    <a class="btn btn-sun" href="#contacto">Pedir informes</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="rays" aria-hidden="true"></div>
+  <span class="cloud c1" aria-hidden="true"></span><span class="cloud c2" aria-hidden="true"></span>
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="pill">Matrículas 2027 abiertas</p>
+      <h1>Crecemos en la fe y aprendemos con alegría</h1>
+      <p class="lead">Un colegio de familia en Santa Clara donde cada niño es conocido por su nombre y acompañado con amor.</p>
+      <div class="actions">
+        <a class="btn btn-sun" href="#contacto">Agendar visita</a>
+        <a class="btn btn-line" href="#niveles">Conocer niveles</a>
+      </div>
+    </div>
+    <div class="heart-wrap" aria-hidden="true">
+      <div class="glow"></div>
+      <svg class="heart-big" viewBox="0 0 64 64"><use href="#heart"/></svg>
+    </div>
+  </div>
+  <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40c240 60 480 60 720 20s480-40 720 10v10H0z" fill="#fff"/></svg>
+</section>
+
+<section class="verse">
+  <div class="verse-track" aria-label="Valores del colegio">
+    <span>Fe</span><span>Respeto</span><span>Alegría</span><span>Responsabilidad</span><span>Solidaridad</span><span>Familia</span><span>Esfuerzo</span>
+    <span>Fe</span><span>Respeto</span><span>Alegría</span><span>Responsabilidad</span><span>Solidaridad</span><span>Familia</span><span>Esfuerzo</span>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap stats-grid">
+    <div><strong data-count="500" data-plus="+">0</strong><span>alumnos felices</span></div>
+    <div><strong data-count="30">0</strong><span>años de historia</span></div>
+    <div><strong data-count="25">0</strong><span>docentes</span></div>
+    <div><strong data-count="1">0</strong><span>sede, tu segundo hogar</span></div>
+  </div>
+</section>
+
+<section class="section" id="niveles">
+  <div class="wrap">
+    <h2>Un camino para cada etapa</h2>
+    <p class="sub">Desde el primer día de clases hasta la graduación, en un mismo colegio.</p>
+    <div class="cards">
+      <article class="card g1 reveal"><span class="ico">🧸</span><h3>Inicial</h3><p>De 3 a 5 años. Aprendemos jugando, cantando y descubriendo que Dios nos ama.</p></article>
+      <article class="card g2 reveal"><span class="ico">✏️</span><h3>Primaria</h3><p>1.° a 6.° grado. Lectura, matemática y valores con seguimiento cercano.</p></article>
+      <article class="card g3 reveal"><span class="ico">🔬</span><h3>Secundaria</h3><p>1.° a 5.° año. Preparación para la universidad y para la vida.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section sky" id="fe">
+  <div class="wrap split">
+    <div class="reveal">
+      <h2>Una escuela que reza, estudia y sonríe</h2>
+      <blockquote>«Dejen que los niños vengan a mí».<cite>Mateo 19:14</cite></blockquote>
+    </div>
+    <ul class="values">
+      <li class="reveal"><b>Fe en el día a día.</b> Oración, catequesis y celebraciones durante el año.</li>
+      <li class="reveal"><b>Trato cercano.</b> Los tutores conocen a cada alumno y hablan con cada familia.</li>
+      <li class="reveal"><b>Aprender con alegría.</b> Arte, deporte, música y tecnología.</li>
+      <li class="reveal"><b>Familias unidas.</b> Escuela de padres y comunicación directa.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="vida">
+  <div class="wrap split">
+    <figure class="photo reveal">
+      <img src="img/frontis.png" alt="Banda de música del colegio frente al local" loading="lazy">
+      <!-- Cambia img/frontis.png por una foto en alta calidad -->
+    </figure>
+    <div class="reveal">
+      <h2>Banda, deporte y arte</h2>
+      <p class="sub">Nuestros alumnos desfilan, tocan y participan en actividades que fortalecen el carácter y el trabajo en equipo.</p>
+      <ul class="chips"><li>Banda de música</li><li>Escolta</li><li>Catequesis</li><li>Talleres de arte</li><li>Deportes</li></ul>
+    </div>
+  </div>
+</section>
+
+<section class="section sky" id="admision">
+  <div class="wrap">
+    <h2>Matricular es muy sencillo</h2>
+    <p class="sub">Cuatro pasos, y te acompañamos en cada uno.</p>
+    <ol class="steps">
+      <li class="reveal"><b>Escríbenos</b> por WhatsApp o con el formulario.</li>
+      <li class="reveal"><b>Visítanos</b> y conoce las aulas y a los docentes.</li>
+      <li class="reveal"><b>Entrega los documentos</b> que te indicaremos.</li>
+      <li class="reveal"><b>Confirma la matrícula</b> y recibe la bienvenida.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="noticias">
+  <div class="wrap">
+    <h2>Novedades</h2>
+    <p class="sub">Edita estos textos cuando haya algo nuevo.</p>
+    <div class="cards">
+      <article class="news reveal"><time>15 nov 2026</time><h3>Feria de ciencias</h3><p>Los alumnos presentan sus proyectos a las familias.</p></article>
+      <article class="news reveal"><time>08 dic 2026</time><h3>Fiesta de la Inmaculada</h3><p>Celebración con oración, música y compartir.</p></article>
+      <article class="news reveal"><time>10 ene 2027</time><h3>Inicio de matrículas</h3><p>Cupos limitados por aula. Pide informes con tiempo.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contacto">
+  <div class="wrap split">
+    <div>
+      <h2>Te esperamos en casa</h2>
+      <p class="sub">Déjanos tus datos y te responderemos por WhatsApp.</p>
+      <p class="info">📍 Av. Independencia 309, Santa Clara, Ate<br>📞 <a href="tel:+51999999999">999 999 999</a><br>🕗 Lunes a viernes, 7:00 a. m. a 5:00 p. m.</p>
+      <a class="social" href="https://www.google.com/maps/search/?api=1&query=Av.+Independencia+309+Santa+Clara+Ate" target="_blank" rel="noopener">Ver en el mapa</a> · <a class="social" href="https://facebook.com/tu-colegio" target="_blank" rel="noopener">Síguenos en Facebook</a>
+    </div>
+    <form class="form" id="form">
+      <label>Tu nombre<input name="nombre" required autocomplete="name"></label>
+      <label>Nivel de interés<select name="grado"><option>Inicial</option><option>Primaria</option><option>Secundaria</option></select></label>
+      <label>Mensaje<textarea name="mensaje" rows="3" placeholder="Quiero información sobre matrícula"></textarea></label>
+      <button class="btn btn-sun" type="submit">Enviar por WhatsApp</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">© <span id="year"></span> I.E.P. Sagrado Corazón de Jesús de Santa Clara. Todos los derechos reservados.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
